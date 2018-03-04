@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Letters</string>
+    <string name="caption_input">Код символа</string>
+    <string name="caption_symbol">Символ</string>
+    <string name="caption_next_symbol">Следующий \n
+        символ</string>
+    <string name="button_discover">Узнать</string>
+</resources>
