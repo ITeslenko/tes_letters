@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/caption_input"
+        android:text="@string/caption_cod_input"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/etInputSymb"
+        android:id="@+id/etInputCodSymb"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
@@ -35,12 +35,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
         android:id="@+id/tvSymb"
         android:layout_marginTop="23dp"
-        android:layout_below="@+id/etInputSymb"
-        android:layout_alignRight="@+id/etInputSymb"
-        android:layout_alignEnd="@+id/etInputSymb" />
+        android:layout_below="@+id/etInputCodSymb"
+        android:layout_alignRight="@+id/etInputCodSymb"
+        android:layout_alignEnd="@+id/etInputCodSymb" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -49,8 +48,8 @@
         android:text="@string/caption_symbol"
         android:id="@+id/tvNameSymb"
         android:layout_alignBottom="@+id/tvSymb"
-        android:layout_alignLeft="@+id/etInputSymb"
-        android:layout_alignStart="@+id/etInputSymb" />
+        android:layout_alignLeft="@+id/etInputCodSymb"
+        android:layout_alignStart="@+id/etInputCodSymb" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -67,7 +66,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
         android:id="@+id/tvNextSymb"
         android:layout_alignBottom="@+id/tvNameNextSymb"
         android:layout_alignLeft="@+id/tvSymb"
@@ -78,8 +76,37 @@
         android:layout_height="wrap_content"
         android:text="@string/button_discover"
         android:id="@+id/btnDiscover"
+        android:layout_marginTop="34dp"
         android:layout_below="@+id/tvNameNextSymb"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp" />
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/caption_symb_input"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/btnDiscover"
+        android:layout_alignLeft="@+id/tvNameNextSymb"
+        android:layout_alignStart="@+id/tvNameNextSymb"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etInputSymb"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toLeftOf="@+id/tvNextSymb"
+        android:layout_toStartOf="@+id/tvNextSymb" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_discover_symb"
+        android:id="@+id/btnDiscoverSymb"
+        android:layout_alignTop="@+id/btnDiscover"
+        android:layout_alignRight="@+id/tvNextSymb"
+        android:layout_alignEnd="@+id/tvNextSymb" />
 
 </RelativeLayout>

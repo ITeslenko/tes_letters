@@ -1,8 +1,13 @@
 <resources>
     <string name="app_name">Letters</string>
-    <string name="caption_input">Код символа</string>
-    <string name="caption_symbol">Символ</string>
+    <string name="caption_cod_input">Код символа</string>
+    <string name="caption_symbol">Текущий</string>
     <string name="caption_next_symbol">Следующий \n
         символ</string>
-    <string name="button_discover">Узнать</string>
+    <string name="caption_symb_input">Ввод \n
+        символа</string>
+    <string name="button_discover">Узнать \n
+        по коду</string>
+    <string name="button_discover_symb">Узнать \n
+        по символу</string>
 </resources>
