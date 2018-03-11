@@ -28,7 +28,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:gravity="center_horizontal"
-        android:singleLine="false" />
+        android:singleLine="false"
+        android:numeric="integer" />
 
     <TextView
         android:layout_width="wrap_content"
